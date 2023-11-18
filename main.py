@@ -472,7 +472,7 @@ with st.container():
 
 
     legend_details = energy_frequency_df['p5_amountofenergy'].values
-    hover_data = energy_frequency_df['index'].values
+    hover_data = energy_frequency_df['count'].values
 
     # Given sizes of the bubbles (radius) and the data to show on hover
     bubble_sizes = [150, 110, 90, 70, 55]  # Radii provided by you
@@ -551,7 +551,7 @@ with st.container():
     time_frequency_df =time_frequency.reset_index()
 
     legend_details = time_frequency_df['p6_amountoftime'].values  
-    hover_data = time_frequency_df['index'].values
+    hover_data = time_frequency_df['count'].values
 
     # Given sizes of the bubbles (radius) and the data to show on hover
     bubble_sizes = [150, 110, 90, 70, 55]  # Radii provided by you
