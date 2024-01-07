@@ -2,6 +2,8 @@
 
 A data visualization competition based on the Creatives Rebuild New York (CRNY) dataset, organized by Indiana University's Center for Cultural Affairs (under O'Neill School of Public and Environmental Affairs).
 
+We achieved 2nd place in the competition.
+
 Link: https://crnycompetition-99.streamlit.app/
 
 ## Tech
